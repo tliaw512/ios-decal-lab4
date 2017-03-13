@@ -14,6 +14,8 @@ class CategoryViewController: UIViewController {
     var cachedImages: [Int:UIImage] = [:]
     var selectedIndexPath: IndexPath?
     
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
